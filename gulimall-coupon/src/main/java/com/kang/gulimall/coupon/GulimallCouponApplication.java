@@ -2,6 +2,7 @@ package com.kang.gulimall.coupon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @projectName: guliMall
@@ -12,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date: 26/06/2024 21:00
  * @version: 1.0
  */
+@EnableDiscoveryClient
 @SpringBootApplication
 public class GulimallCouponApplication {
 
