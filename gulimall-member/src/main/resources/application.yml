@@ -1,0 +1,16 @@
+# 配置数据源
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.10.100:3306/gulimall_ums?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+
+server:
+  port: 8000
+
